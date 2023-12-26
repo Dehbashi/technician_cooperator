@@ -7,7 +7,7 @@ import 'package:flutter_background_service_android/flutter_background_service_an
 import 'package:geolocator/geolocator.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:technician/constans.dart';
+import '../constans.dart';
 import 'package:http/http.dart' as http;
 
 final _foregroundServiceAndroidConfig = AndroidConfiguration(

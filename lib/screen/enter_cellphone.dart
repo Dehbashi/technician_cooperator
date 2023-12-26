@@ -139,13 +139,15 @@ class _CellEnterState extends State<CellEnter> {
                     ),
                   ),
                   child: Text(
-                    'ورود به سامانه موقعیت یاب',
+                    'ورود به سامانه همکار\n'
+                    'بسپارش به ما',
                     style: TextStyle(
                       fontFamily: 'iranSans',
                       color: Color(0xFF037E85),
                       fontSize: 30,
                       fontWeight: FontWeight.w900,
                     ),
+                    textAlign: TextAlign.center,
                   ),
                 ),
                 SizedBox(

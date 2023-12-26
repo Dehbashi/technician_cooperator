@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:technician/screen/widget/confirmation_dialog.dart';
+import '../screen/widget/confirmation_dialog.dart';
 import '../constans.dart';
 import '../services/state_service.dart';
 

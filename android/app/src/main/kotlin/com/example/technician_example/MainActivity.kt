@@ -1,4 +1,4 @@
-package com.example.technician_example
+package com.example.technician_cooperator
 
 import android.os.Bundle
 import io.flutter.embedding.android.FlutterActivity

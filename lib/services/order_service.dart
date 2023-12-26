@@ -5,7 +5,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 class OrderService {
   Future<List<Order>> getOrders() async {
     final url =
-        Uri.parse('https://s1.lianerp.com/api/public/provider/order/list');
+        Uri.parse('https://s1.lianerp.com/api/public/salesperson/order/list');
 
     SharedPreferences prefs = await SharedPreferences.getInstance();
     final _token = prefs.getString('token');

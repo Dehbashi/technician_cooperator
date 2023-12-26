@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:technician/screen/admin_page.dart';
+import '../screen/admin_page.dart';
 import './header.dart';
 import './widget/textFieldWidget.dart';
 import './widget/buttonWidget.dart';

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:technician/services/location_service.dart';
+import './services/location_service.dart';
 import './screen/homescreen.dart';
 import 'dart:async';
 

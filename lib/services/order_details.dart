@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 class OrderDetailsFetch {
   Future<OrderDetails?> getOrderDetails(int id) async {
     final url = Uri.parse(
-        'https://s1.lianerp.com/api/public/provider/order/show?id=$id');
+        'https://s1.lianerp.com/api/public/salesperson/order/show?id=$id');
     // final url =
     //     Uri.parse('https://s1.lianerp.com/api/public/provider/order/show');
 
@@ -64,7 +64,6 @@ class OrderDetails {
   final List items;
   final dynamic address;
   final dynamic service;
-  final dynamic user;
   final String notes;
 
   OrderDetails({
@@ -81,7 +80,6 @@ class OrderDetails {
     required this.items,
     required this.address,
     required this.service,
-    required this.user,
     required this.notes,
   });
 
@@ -100,7 +98,6 @@ class OrderDetails {
       items: json["items"],
       address: json["address"],
       service: json["service"],
-      user: json["user"],
       notes: json["text"],
     );
   }
